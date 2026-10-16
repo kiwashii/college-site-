@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #101319;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.header {
+    height: 85px;
+    padding: 0 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0b0e12;
+    border-bottom: 1px solid #252a30;
+}
+.logo{
+    display: flex;
+    width: 234px;
+}
+.logo-name {
+    
+    font-size: 26px;
+    letter-spacing: 5px;
+}
+.only-text
+{
+    margin-left: 5px;
+}
+.logo-text {
+    margin-top: 3px;
+    color: #999da5;
+    font-size: 9px;
+    letter-spacing: 3px;
+}
+
+.menu {
+    display: flex;
+    gap: 35px;
+}
+
+.menu{
+    color: #eeeeee;
+    font-size: 14px;
+}
+
+.menu{
+    color: white;
+}
+
+.top-button {
+    padding: 10px 22px;
+    color: white;
+    border: 1px solid #888c93;
+    border-radius: 15px;
+    font-size: 13px;
+}
+
+.top-button:hover {
+    background: white;
+    color: #111;
+}
+
+.hero {
+    height: 440px;
+    padding-left: 7%;
+    display: flex;
+    align-items: center;
+    background:
+        linear-gradient(90deg, #0c1015 10%, rgba(12,16,21,.82) 45%, rgba(12,16,21,.15)),
+        url(foto/unite-ai-artificial-intelligence-b13-661-text-to-music-generative-ai-stability-audio-googles-musiclm-and-more.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    width: 550px;
+}
+
+.small-title {
+    color: #aeb2ba;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+
+.main-title {
+    margin: 8px 0;
+    font-size: 65px;
+    letter-spacing: 6px;
+}
+
+.description {
+    margin-bottom: 25px;
+    color: #d1d3d8;
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+.button {
+    display: inline-block;
+    padding: 13px 28px;
+    background: #f1eee8;
+    color: #15171b;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.button:hover {
+    background: #c9b49a;
+}
+
+.services {
+    padding: 60px 7%;
+    background: #151920;
+}
+
+.section-title {
+    margin: 8px 0 30px;
+    font-size: 30px;
+}
+
+.cards {
+    display: flex;
+    gap: 25px;
+}
+
+.card {
+    width: 25%;
+    min-height: 185px;
+    padding: 25px;
+    background: #1b2027;
+    border: 1px solid #2c3138;
+}
+
+.card:hover {
+    border-color: #8d806e;
+}
+
+.icon {
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.card-title {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.card-text {
+    color: #afb2b9;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.about {
+    min-height: 400px;
+    padding: 65px 7%;
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.about-image {
+    width: 50%;
+    height: 310px;
+    background:
+        linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.15)),
+        url(foto/deepchat_ru_1790833756764-Picsart-CropImage\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-content {
+    width: 50%;
+}
+
+.about-text {
+    margin: 20px 0;
+    color: #bfc2c9;
+    line-height: 1.7;
+}
+
+.check {
+    margin: 10px 0;
+    color: #e1e2e5;
+}
+
+.booking {
+    padding: 55px;
+    text-align: center;
+    background: #1a1e25;
+    border-top: 1px solid #292e35;
+}
+
+.booking-title {
+    margin: 8px 0;
+    font-size: 30px;
+}
+
+.booking-text {
+    margin-bottom: 25px;
+    color: #afb2b9;
+}
+
+.footer {
+    min-height: 150px;
+    padding: 30px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    background: #0b0e12;
+    border-top: 1px solid #292e35;
+}
+
+.contacts {
+    color: #bfc2c9;
+    font-size: 13px;
+    line-height: 2;
+}
+
+.copyright {
+    color: #888c94;
+    font-size: 11px;
+}
+
+

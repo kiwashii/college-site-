@@ -24,6 +24,85 @@ body {
     background: var(--bg);
     line-height: 1.6;
 }
+#contacts {
+padding: 60px 0;
+}
+
+#contacts .container {
+max-width: 1100px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+#contacts .eyebrow {
+color: #64748b;
+font-size: 14px;
+margin-bottom: 10px;
+}
+
+#contacts h2 {
+font-size: 32px;
+margin-bottom: 30px;
+}
+
+.contacts-list {
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.contact-item {
+flex: 1;
+min-width: 220px;
+padding: 25px;
+background-color: #ffffff;
+border: 1px solid #e2e8f0;
+border-radius: 12px;
+}
+
+.contact-item h3 {
+font-size: 18px;
+margin-bottom: 12px;
+}
+
+.contact-item p {
+font-size: 16px;
+line-height: 1.6;
+margin: 0;
+overflow-wrap: anywhere;
+}
+
+.contact-item a {
+color: #2563eb;
+text-decoration: none;
+}
+
+.contact-item a:hover {
+text-decoration: underline;
+}
+
+/* Отображение на телефонах */
+@media (max-width: 600px) {
+#contacts {
+padding: 40px 0;
+}
+
+#contacts h2 {
+font-size: 26px;
+}
+
+.contacts-list {
+flex-direction: column;
+}
+
+.contact-item {
+min-width: 0;
+}
+}
+
+
+
+
 
 .container {
     width: min(1100px, calc(100% - 40px));
